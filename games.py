@@ -14,7 +14,7 @@ def psb(z):
 print("\033[92m")
 os.system("clear")
 time.sleep(0.8)
-os.system("figlet ToxicNoob")
+print(" _____         _      _   _             _     \n|_   _|____  _(_) ___| \ | | ___   ___ | |__  \n  | |/ _ \ \/ / |/ __|  \| |/ _ \ / _ \| '_ \ \n  | | (_) >  <| | (__| |\  | (_) | (_) | |_) |\n  |_|\___/_/\_\_|\___|_| \_|\___/ \___/|_.__/ \n                                              ")
 print("\033[3;90m  		      Security Is An Illusion \033[0;92m")
 print("\n")
 time.sleep(0.6)
@@ -38,7 +38,7 @@ def logo():
 	os.system("clear")
 	print("\033[92m")
 	logopsb(" _____ ____                           \n|_   _/ ___| __ _ _ __ ___   ___  ___ \n  | || |  _ / _` | '_ ` _ \ / _ \/ __|\n  | || |_| | (_| | | | | | |  __/\__ \ \n  |_| \____|\__,_|_| |_| |_|\___||___/\n                                      ")
-	logopsb("			A Product Of ToxicNoob")
+	logopsb("\033[3;90m			A Product Of ToxicNoob\033[0;92m")
 	time.sleep(0.5)
 	print
 	logopsb("\033[34m\n|****************************************************| \n|\033[3m Author   : DarkSlad3                               \033[0;34m|\n|\033[3m Tool     : Termux Games                            \033[0;34m|\n|\033[3m Version  : 1.0                                     \033[0;34m|\n|\033[3m Link     : https://www.github.com/Toxic-Noob/	     \033[0;34m|\n|\033[3m Coded By : DarkSlad3        		     	     \033[0;34m|\n|\033[3m Note     : Add Termux Extra Keys Before Playing    \033[0;34m|\n******************************************************")

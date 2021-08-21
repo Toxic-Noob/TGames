@@ -41,7 +41,7 @@ def logo():
 	logopsb("			A Product Of ToxicNoob")
 	time.sleep(0.5)
 	print
-	logopsb("\033[34m\n|****************************************************| \n|\033[3m Author   : DarkSlad3                               \033[0;34m|\n|\033[3m Tool     : Termux Games                            \033[0;34m|\n|\033[3m Version  : 1.0                                     \033[0;34m|\n|\033[3m Link     : https://www.github.com/Toxic-Noob/	     \033[0;34m|\n|\033[3m Coded By : DarkSlad3        		     	     \033[0;34m|\n******************************************************")
+	logopsb("\033[34m\n|****************************************************| \n|\033[3m Author   : DarkSlad3                               \033[0;34m|\n|\033[3m Tool     : Termux Games                            \033[0;34m|\n|\033[3m Version  : 1.0                                     \033[0;34m|\n|\033[3m Link     : https://www.github.com/Toxic-Noob/	     \033[0;34m|\n|\033[3m Coded By : DarkSlad3        		     	     \033[0;34m|\n|\033[3m Note     : Add Termux Extra Keys Before Playing    \033[0;34m|\n******************************************************")
 	print("\033[3;92m")
 	time.sleep(0.6)
 
@@ -68,11 +68,10 @@ if(op==""):
  os.system("python Tgames.py")
 
 elif(op=="1"):
- os.system("pkg install pacman4console")
- os.system("clear")
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install pacman4console > /dev/null 2>&1")
  print("\033[92m")
- logo()
- psb("[*] PacMan Installed Successfully...")
+ psb("\n[*] PacMan Installed Successfully...")
  print("\n")
  time.sleep(0.8)
  psb("[*] To Play The Game, Type pacman in the Terminal...\033[0;37m")
@@ -82,10 +81,9 @@ elif(op=="1"):
 
 
 elif(op=="2"):
- os.system("pkg install bastet")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install bastet > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] Tetris Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -96,10 +94,9 @@ elif(op=="2"):
 
 
 elif(op=="3"):
- os.system("pkg install moon-buggy")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install moon-buggy > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] Moon-Buggy Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -110,10 +107,9 @@ elif(op=="3"):
 
 
 elif(op=="4"):
- os.system("pkg install ninvaders")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install ninvaders > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] nInvaders Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -124,10 +120,9 @@ elif(op=="4"):
 
 
 elif(op=="5"):
- os.system("pkg install nsnake")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install nsnake > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] Snake Game Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -138,10 +133,9 @@ elif(op=="5"):
 
 
 elif(op=="6"):
- os.system("pkg install greed")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install greed > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] Greed Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -152,10 +146,9 @@ elif(op=="6"):
 
 
 elif(op=="7"):
- os.system("pkg install nethack")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install nethack > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] Nethack Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -166,10 +159,9 @@ elif(op=="7"):
 
 
 elif(op=="8"):
- os.system("pkg install nudoku && apt install nudoku")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install nudoku > /dev/null 2>&1 && apt install nudoku > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("[*] Sudoku Installed Successfully...")
  print("\n")
  time.sleep(0.8)
@@ -180,10 +172,9 @@ elif(op=="8"):
 
 
 elif(op=="9"):
- os.system("pkg install pacman4console bastet moon-buggy ninvaders nsnake greed nudoku && apt install nudoku")
- os.system("clear")
- print("\033[92m")
- logo()
+ psb("[*] Please Wait Some Time....")
+ os.system("pkg install pacman4console bastet moon-buggy ninvaders nsnake greed nudoku > /dev/null 2>&1 && apt install nudoku > /dev/null 2>&1")
+ print("\033[92m\n")
  psb("All Games Installed Successfully....")
  print("\n")
  psb("For playing The Games....")
@@ -277,9 +268,9 @@ elif(op=="10"):
 
 
 elif(op=="11"):
- os.system("clear")
+ print("\033[0;37m")
  time.sleep(0.5)
- os.system("git clone https://github.com/toxicnoobs/Tkey")
+ os.system("git clone https://github.com/toxicnoobs/Tkey > /dev/null 2>&1")
  os.system("cd Tkey && python2 key.py && python2 key.py")
  os.system("cd ..")
  os.system("rm -rf Tkey")
